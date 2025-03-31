@@ -5,25 +5,25 @@ namespace Shaman\IblockModels\Dto;
 class ListPropertyDto
 {
     /** @var null|int|string|array */
-    public $displayValue;
+    public $value;
     /** @var null|int|string|array */
-    public $enumValue;
+    public $valueEnum;
     /** @var null|int|string|array */
-    public $enumIdValue;
+    public $valueEnumId;
     /** @var null|int|string|array */
-    public $xmlIdValue;
+    public $xmlId;
 
     /**
-     * @param null|int|string|array $displayValue
+     * @param null|int|string|array $valueName
      * @param null|int|string|array $enumValue
      * @param null|int|string|array $enumIdValue
-     * @param null|int|string|array $xmlIdValue
+     * @param null|int|string|array $xmlId
      */
-    public function __construct($displayValue, $enumValue, $enumIdValue, $xmlIdValue)
+    public function __construct($valueName, $enumValue, $enumIdValue, $xmlId)
     {
-        $this->displayValue = $displayValue;
-        $this->enumValue = $enumValue;
-        $this->enumIdValue = $enumIdValue;
-        $this->xmlIdValue = $xmlIdValue;
+        $this->value = $valueName;
+        $this->valueEnum = $enumValue;
+        $this->valueEnumId = $enumIdValue;
+        $this->xmlId = $xmlId;
     }
 }
