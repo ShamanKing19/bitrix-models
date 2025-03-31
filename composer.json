@@ -1,0 +1,13 @@
+{
+    "name": "shaman/bitrix-models",
+    "description": "Package created to simplify interaction with iblock and tables.",
+    "type": "library",
+    "authors": [
+        {
+            "name": "ShamanKing19",
+            "email": "gera.sukhomlin@gmail.com"
+        }
+    ],
+    "minimum-stability": "RC",
+    "require": {}
+}
